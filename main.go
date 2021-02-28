@@ -19,7 +19,7 @@ func main() {
 	quickSortR(0, len(l)-1)
 	// fmt.Printf("%+v \n", l)
 	end := time.Now().Nanosecond()
-	fmt.Printf("finished in: %d", end-start)
+	fmt.Printf("finished in: %d\n", end-start)
 }
 
 func quickSortR(p int, r int) {
